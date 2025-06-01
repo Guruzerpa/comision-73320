@@ -1,5 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  text-align: center;
+  font-size: 40px;
+}
+
 body {
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   background-color: darkgray;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 5rem;
 }
 
 .hero {
@@ -7,8 +31,29 @@ body {
   height: 1000px;
 }
 
+.hoguera {
+  display: flex;
+  justify-content: center;
+}
+
 .textoinicial {
-  font-size: 20px;
-  padding-top: 1rem;
+  font-size: 40px;
+  padding-top: 5rem;
   text-align: center;
+}
+.navbar-custom {
+  background-color: rgb(128, 128, 128) !important;
+}
+
+.galeria {
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.galeria img {
+  max-width: 400px;
+  padding: 1rem;
 }
