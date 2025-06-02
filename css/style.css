@@ -40,7 +40,7 @@ h1 {
   font-size: 30px;
   text-align: center;
   height: 1080px;
-  background-image: url(../img/dswall.jpg);
+  background-image: url(../img/img0.jpg);
   background-position: 0;
   background-size: cover;
   background-attachment: fixed;
@@ -68,8 +68,8 @@ h1 {
 }
 
 .galeria img {
-  width: 260px;
-  height: 260px;
+  width: 250px;
+  height: 250px;
   max-width: 400px;
   padding: 1rem;
 }
