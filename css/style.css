@@ -39,7 +39,7 @@ h1 {
 .hero {
   font-size: 30px;
   text-align: center;
-  height: 1080px;
+  height: auto;
   background-image: url(../img/img0.jpg);
   background-position: 0;
   background-size: cover;
@@ -86,6 +86,7 @@ footer {
 
 .grids-galeria {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-rows: auto;
   gap: 10px;
 }
