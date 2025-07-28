@@ -1,11 +1,1 @@
-{
-  "version": 3,
-  "sourceRoot": "",
-  "sources": [
-    "../scss/_base.scss",
-    "../scss/_componentes.scss"
-  ],
-  "names": [],
-  "mappings": "AAAA;EACE;EACA;EACA;;;AAGF;EACE;EACA;EACA;EACA;EACA;;;AAGF;EACE;EACA;EACA;EACA;;;AClBF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;;AAGF;EACE;EACA;EACA;EACA;EACA;;;AAGF;EACE;EACA;EACA;EACA",
-  "file": "estilos.css"
-}
+{"version":3,"sourceRoot":"","sources":["../scss/_base.scss","../scss/_layout.scss","../scss/_componentes.scss"],"names":[],"mappings":"AAAA;EACE;EACA;EACA;;;AAGF;EACE;EACA;EACA;EACA;EACA;;;AAGF;EACE;EACA;EACA;EACA;;;AClBF;EACE;EACA;EACA;EACA;;;AAGF;EACE;EACA;EACA;EACA;;;ACXF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;;AAGF;EACE;EACA;EACA;EACA;EACA;;;AAGF;EACE;EACA;EACA;EACA","file":"estilos.css"}

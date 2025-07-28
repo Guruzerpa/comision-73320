@@ -19,6 +19,20 @@ h1 {
   padding-top: 5rem;
 }
 
+.grids-galeria, .grids-galeria-zonas, .grids-galeria-npc, .grids-galeria-jefes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-rows: auto;
+  gap: 10px;
+}
+
+.grids-foto {
+  width: 300px;
+  height: 300px;
+  max-width: 400px;
+  padding: 1rem;
+}
+
 .hero {
   font-size: 30px;
   text-align: center;
