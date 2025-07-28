@@ -8,14 +8,25 @@
   background-attachment: fixed;
   font-weight: bold;
   color: blanchedalmond;
-}
+  padding: 2rem;
 
-.textoinicial {
-  font-size: 40px;
-  padding-top: 5rem;
-  text-align: center;
-  color: blanchedalmond;
-  font-weight: bold;
+  h1 {
+    font-size: 50px;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+  }
+
+  .textoinicial {
+    font-size: 40px;
+    padding-top: 2rem;
+    font-weight: bold;
+    color: blanchedalmond;
+
+    br {
+      display: block;
+      margin-bottom: 1rem;
+    }
+  }
 }
 
 .hoguera {

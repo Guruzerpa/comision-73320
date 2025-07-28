@@ -1,13 +1,24 @@
-.grids-galeria {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  grid-template-rows: auto;
-  gap: 10px;
-}
+@use "mixins";
 
-.grids-foto {
-  width: 300px;
-  height: 300px;
-  max-width: 400px;
-  padding: 1rem;
+.hero {
+  .grids-galeria {
+    @include mixins.galeria-grid;
+
+    div {
+      text-align: center;
+
+      h3 {
+        margin-top: 0.5rem;
+        color: blanchedalmond;
+      }
+
+      .grids-foto {
+        width: 300px;
+        height: 300px;
+        max-width: 400px;
+        padding: 1rem;
+        object-fit: cover;
+      }
+    }
+  }
 }

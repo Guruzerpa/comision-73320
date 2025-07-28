@@ -12,25 +12,25 @@ body {
   background-color: rgb(63, 63, 63);
 }
 
-h1 {
-  font-size: 50px;
-  text-align: center;
-  text-decoration: underline;
-  padding-top: 5rem;
-}
-
-.grids-galeria, .grids-galeria-zonas, .grids-galeria-npc, .grids-galeria-jefes {
+.hero .grids-galeria, .hero .grids-galeria-zonas, .hero .grids-galeria-npc, .hero .grids-galeria-jefes {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-template-rows: auto;
   gap: 10px;
 }
-
-.grids-foto {
+.hero .grids-galeria div, .hero .grids-galeria-zonas div, .hero .grids-galeria-npc div, .hero .grids-galeria-jefes div {
+  text-align: center;
+}
+.hero .grids-galeria div h3, .hero .grids-galeria-zonas div h3, .hero .grids-galeria-npc div h3, .hero .grids-galeria-jefes div h3 {
+  margin-top: 0.5rem;
+  color: blanchedalmond;
+}
+.hero .grids-galeria div .grids-foto, .hero .grids-galeria-zonas div .grids-foto, .hero .grids-galeria-npc div .grids-foto, .hero .grids-galeria-jefes div .grids-foto {
   width: 300px;
   height: 300px;
   max-width: 400px;
   padding: 1rem;
+  object-fit: cover;
 }
 
 .hero {
@@ -43,14 +43,22 @@ h1 {
   background-attachment: fixed;
   font-weight: bold;
   color: blanchedalmond;
+  padding: 2rem;
 }
-
-.textoinicial {
+.hero h1 {
+  font-size: 50px;
+  text-decoration: underline;
+  margin-bottom: 1rem;
+}
+.hero .textoinicial {
   font-size: 40px;
-  padding-top: 5rem;
-  text-align: center;
-  color: blanchedalmond;
+  padding-top: 2rem;
   font-weight: bold;
+  color: blanchedalmond;
+}
+.hero .textoinicial br {
+  display: block;
+  margin-bottom: 1rem;
 }
 
 .hoguera {
