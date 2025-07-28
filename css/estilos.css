@@ -1,71 +1,17 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 5 | @import "mixins/mixins  ";
+ *   |         ^^^^^^^^^^^^^^^^^
+ *   '
+ *   scss\estilos.scss 5:9  root stylesheet */
 
-body {
-  font-family: "Alegreya", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  background-color: rgb(63, 63, 63);
-}
-
-.hero .grids-galeria, .hero .grids-galeria-zonas, .hero .grids-galeria-npc, .hero .grids-galeria-jefes {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  grid-template-rows: auto;
-  gap: 10px;
-}
-.hero .grids-galeria div, .hero .grids-galeria-zonas div, .hero .grids-galeria-npc div, .hero .grids-galeria-jefes div {
-  text-align: center;
-}
-.hero .grids-galeria div h3, .hero .grids-galeria-zonas div h3, .hero .grids-galeria-npc div h3, .hero .grids-galeria-jefes div h3 {
-  margin-top: 0.5rem;
-  color: blanchedalmond;
-}
-.hero .grids-galeria div .grids-foto, .hero .grids-galeria-zonas div .grids-foto, .hero .grids-galeria-npc div .grids-foto, .hero .grids-galeria-jefes div .grids-foto {
-  width: 300px;
-  height: 300px;
-  max-width: 400px;
-  padding: 1rem;
-  object-fit: cover;
-}
-
-.hero {
-  font-size: 30px;
-  text-align: center;
-  height: auto;
-  background-image: url(../img/img0.jpg);
-  background-position: 0;
-  background-size: cover;
-  background-attachment: fixed;
-  font-weight: bold;
-  color: blanchedalmond;
-  padding: 2rem;
-}
-.hero h1 {
-  font-size: 50px;
-  text-decoration: underline;
-  margin-bottom: 1rem;
-}
-.hero .textoinicial {
-  font-size: 40px;
-  padding-top: 2rem;
-  font-weight: bold;
-  color: blanchedalmond;
-}
-.hero .textoinicial br {
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
   display: block;
-  margin-bottom: 1rem;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 5 \2502  @import \"mixins/mixins  \";\d\a   \2502          ^^^^^^^^^^^^^^^^^\a   \2575 \a   scss\\estilos.scss 5:9  root stylesheet";
 }
-
-.hoguera {
-  margin-top: 100px;
-  text-align: center;
-  font-size: 20px;
-  color: blanchedalmond;
-}
-
-/*# sourceMappingURL=estilos.css.map */
