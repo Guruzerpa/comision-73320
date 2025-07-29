@@ -33,6 +33,102 @@ body {
   object-fit: cover;
 }
 
+.grids-galeria-jefes {
+  column-count: 3;
+  column-gap: 1.5rem;
+  padding: 2rem;
+}
+@media (max-width: 900px) {
+  .grids-galeria-jefes {
+    column-count: 2;
+  }
+}
+@media (max-width: 600px) {
+  .grids-galeria-jefes {
+    column-count: 1;
+  }
+}
+.grids-galeria-jefes > div {
+  break-inside: avoid;
+  margin-bottom: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.grids-galeria-jefes > div:hover {
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 0 15px rgba(255, 235, 205, 0.4);
+}
+.grids-galeria-jefes > div img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px 10px 0 0;
+  filter: grayscale(20%) contrast(110%);
+  transition: filter 0.3s;
+}
+.grids-galeria-jefes > div img:hover {
+  filter: none;
+}
+.grids-galeria-jefes > div h3 {
+  padding: 0.75rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: blanchedalmond;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 3px black;
+}
+
+.grids-galeria-armas {
+  column-count: 3;
+  column-gap: 1.5rem;
+  padding: 2rem;
+}
+@media (max-width: 900px) {
+  .grids-galeria-armas {
+    column-count: 2;
+  }
+}
+@media (max-width: 600px) {
+  .grids-galeria-armas {
+    column-count: 1;
+  }
+}
+.grids-galeria-armas > div {
+  break-inside: avoid;
+  margin-bottom: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 1s ease, box-shadow 0.3s ease;
+}
+.grids-galeria-armas > div:hover {
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 0 15px rgba(255, 235, 205, 0.4);
+}
+.grids-galeria-armas > div img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px 10px 0 0;
+  filter: grayscale(20%) contrast(110%);
+  transition: filter 0.3s;
+}
+.grids-galeria-armas > div img:hover {
+  filter: none;
+}
+.grids-galeria-armas > div h3 {
+  padding: 0.75rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: blanchedalmond;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 3px black;
+}
+
 .hero {
   font-size: 30px;
   text-align: center;
